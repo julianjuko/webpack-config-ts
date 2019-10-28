@@ -31,5 +31,10 @@ module.exports = {
   output: {
     libraryTarget: 'commonjs',
     filename: 'index.js'
+  },
+
+  externals: {
+    'react': 'react',
+    'react-bootstrap': 'react-bootstrap'
   }
 }
