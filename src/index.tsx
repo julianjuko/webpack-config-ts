@@ -1,7 +1,11 @@
 import React from 'react'
 import './index.scss'
 
-function Greet() {
+interface IProps {
+  logo: JSX.Element | null
+}
+
+const Greet: React.FC<IProps> = ({ logo }): JSX.Element => {
   return (
     <div className="bg">Hello world</div>
   )

@@ -29,6 +29,7 @@ module.exports = {
   },
 
   output: {
-    libraryTarget: 'commonjs'
+    libraryTarget: 'commonjs',
+    filename: 'index.js'
   }
 }
