@@ -1,5 +1,5 @@
 # webpack-config-ts
-Minimal webpack config for ts libraries
+Minimal webpack config for bundling React/TypeScript based libraries/modules
 
 Lately I've had to do a lot of webpack config for React apps and modules, and it's *hard*. Especially when you throw TypeScript into the mix. The last straw was trying to configure a library written in TypeScript; a base minimal config was required for this kind of thing.
 
